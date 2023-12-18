@@ -1,0 +1,46 @@
+#ex01 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex01 .box:hover {
+  background-color: rgb(32, 78, 139);
+}
+
+#ex02 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex02 .box:hover {
+  background-color: rgb(32, 78, 139);
+}
+
+#ex03 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex03 .box:hover {
+  background-color: rgb(32, 78, 139);
+}
+
+#ex04 .box {
+  transition-property: background-color 0.5 color 0.5;
+  transition-duration: 0.5s;
+}
+
+#ex04 .box:hover {
+  background-color: rgb(32, 78, 139);
+  color: palevioletred;
+}
+
+#ex05 .box {
+  transition-property: background-color 0.5 color 1.9;
+  transition-duration: 0.5s;
+}
+
+#ex05 .box:hover {
+  background-color: rgb(32, 78, 139);
+  color: palevioletred;
+}
