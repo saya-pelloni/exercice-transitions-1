@@ -44,3 +44,13 @@
   background-color: rgb(32, 78, 139);
   color: palevioletred;
 }
+
+#ex06 .box {
+  transition-property: background-color 0.5 color 1.9;
+  transition-duration: 0.5s;
+}
+
+#ex06 .wrapper:hover .box {
+  background-color: rgb(32, 78, 139);
+  color: palevioletred;
+}
